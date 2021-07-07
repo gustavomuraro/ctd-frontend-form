@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Basic config -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <!-- Favicon-->
+  <link href="./img/pet-favicon.png" rel="shortcut icon">
+  <!-- CSS -->
+  <link href="./css/styles.css" rel="stylesheet">
+  <link href="./css/hover.css" rel="stylesheet">
+  <link href="./css/animacoes.css" rel="stylesheet">
+  <!-- Title -->
+  <title>Pet Form</title>
+</head>
+
+<body>
+  <!-- Form -->
+  <form class="petform">
+    <!-- Form Title -->
+    <h1 class="form-title">Crie sua conta</h1>
+    <!-- Fields -->
+    <div class="field">
+      <label for="user">Usuário:</label>
+      <input class="hvr" type="text" name="user" id="user">
+    </div>
+    <div class="field">
+      <label for="email">E-mail:</label>
+      <input class="hvr" type="email" id="email" name="email">
+    </div>
+    <div class="field">
+      <label for="Senha">Senha:</label>
+      <input class="hvr" type="password" id="senha" name="senha">
+    </div>
+    <div class="terms">
+      <input type="checkbox" id="terms" name="terms">
+      <label for="terms">Eu aceito os termos e condições.</label>
+    </div>
+    <!-- Buttons -->
+    <button class="btn-submit" type="submit">Criar conta</button>
+    <button class="btn-reset" type="reset">Limpar</button>
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+.petform {
+  animation-duration: 1.5s;
+  animation-name: correndo;
+}
+@keyframes correndo {
+  from {
+    margin-left: -100%;
+  }
+
+  to {
+    margin-left: 25%;
+  }
+}
